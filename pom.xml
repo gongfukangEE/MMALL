@@ -88,6 +88,7 @@
       <version>1.6.11</version>
     </dependency>
 
+    <!-- json 序列化和反序列化 -->
     <dependency>
       <groupId>org.codehaus.jackson</groupId>
       <artifactId>jackson-mapper-asl</artifactId>
@@ -100,6 +101,7 @@
       <version>1.4</version>
     </dependency>
 
+    <!-- 日志 -->
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-core</artifactId>
@@ -110,7 +112,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.6</version>
+      <version>5.0.5</version>
     </dependency>
 
     <dependency>
@@ -255,6 +257,10 @@
           </configuration>
         </plugin>
 
+        <!--
+          geelynote maven 的核心插件之 -compiler 插件默认只支持编译 Java 1.4
+          因此需要加上支持高版本 jre 的设置，在 pom.xml 里面加上 增加编译插件
+        -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>

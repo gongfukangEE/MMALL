@@ -15,4 +15,6 @@ public interface IUserService {
     ServiceResponse<String> checkValid(String str, String type);
 
     ServiceResponse selectQuestion(String username);
+
+    ServiceResponse<String> checkAnswer(String username, String question, String answer);
 }

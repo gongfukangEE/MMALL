@@ -89,7 +89,9 @@ public class UserController {
     /**
      * 忘记密码，校验密码提示问题
      */
+    @RequestMapping(value = "forget_check_answer.do", method = RequestMethod.GET)
+    @ResponseBody
     public ServiceResponse<String> forgetCheckAnswer(String username, String question, String answer) {
-
+        return iUserService.checkAnswer(username, question, answer);
     }
 }

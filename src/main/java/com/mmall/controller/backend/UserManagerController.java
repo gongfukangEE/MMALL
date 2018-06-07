@@ -17,7 +17,7 @@ import javax.servlet.http.HttpSession;
  * @Date 2018/6/6 23:02
  */
 @Controller
-@RequestMapping("/manage/user")
+@RequestMapping("/manage/user/")
 public class UserManagerController {
     @Autowired
     private IUserService iUserService;

@@ -28,7 +28,9 @@
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.12" />
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
-          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.5" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.1.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.6" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.1.2" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.0.5" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:20.0" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.5" />
@@ -41,7 +43,6 @@
           <element id="library" level="project" name="Maven: commons-io:commons-io:2.0.1" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.1.0" />
           <element id="library" level="project" name="Maven: com.github.miemiedev:mybatis-paginator:1.2.17" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
           <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
           <element id="library" level="project" name="Maven: commons-configuration:commons-configuration:1.10" />

@@ -199,7 +199,7 @@ public class UserServiceImpl implements IUserService {
         if (user == null) {
             return ServerResponse.createByErrorMessage("找不到当前用户");
         }
-        user.setUsername(StringUtils.EMPTY);
+        user.setPassword(StringUtils.EMPTY);
         return ServerResponse.createBySuccess(user);
     }
 }

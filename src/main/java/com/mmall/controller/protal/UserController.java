@@ -60,7 +60,8 @@ public class UserController {
     /**
      * 参数校验
      */
-    @RequestMapping(value = "ckeck_valid.do", method = RequestMethod.POST)
+    @RequestMapping(value = "check_valid.do", method = RequestMethod.POST)
+    @ResponseBody
     public ServerResponse<String> checkValid(String str, String type) {
         return iUserService.checkValid(str, type);
     }
@@ -109,6 +110,7 @@ public class UserController {
      * 登陆状态下的重置密码
      */
     @RequestMapping(value = "reset_password.do", method = RequestMethod.POST)
+    @ResponseBody
     public ServerResponse<String> resetPassword(HttpSession session, String passwordOld, String passwordNew) {
         User user = (User) session.getAttribute(Const.CURRENT_USER);
         if (user == null) {

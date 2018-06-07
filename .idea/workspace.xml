@@ -7,23 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f370c75d-32a4-4f32-a8ba-e6466bd460a8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mmall_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/mmall_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/ICategoryService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mmall.iml" afterPath="$PROJECT_DIR$/mmall.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mmall.properties" afterPath="$PROJECT_DIR$/src/main/resources/mmall.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mmall.properties" afterPath="$PROJECT_DIR$/target/classes/mmall.properties" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext-datasource.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/UserMapper.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mmall.properties" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mmall.properties" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/dispatcher-servlet.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,117 +45,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java">
+      <file leaf-file-name="CategoryManageController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#1667#1668#0" expanded="true" />
-                <element signature="e#1717#1718#0" expanded="true" />
-                <element signature="e#1911#1912#0" expanded="true" />
-                <element signature="e#1968#1969#0" expanded="true" />
-                <element signature="e#2614#2615#0" expanded="true" />
-                <element signature="e#2674#2675#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="109" column="17" lean-forward="true" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mmall.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MD5Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/MD5Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="977">
-              <caret line="41" column="62" lean-forward="false" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1566">
-              <caret line="71" column="72" lean-forward="false" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1032#1033#0" expanded="true" />
-                <element signature="e#1062#1063#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5238">
-              <caret line="194" column="22" lean-forward="false" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
-              <folding>
-                <marker date="1528292649294" expanded="true" signature="1388:1504" ph="select from mmall_user" />
-                <marker date="1528292649294" expanded="true" signature="1594:1654" ph="delete from mmall_user... " />
-                <marker date="1528292649294" expanded="true" signature="1732:2132" ph="insert into mmall_user... " />
-                <marker date="1528292649294" expanded="true" signature="4299:5386" ph="update mmall_user... " />
-                <marker date="1528292649294" expanded="true" signature="5478:5920" ph="update mmall_user... " />
-                <marker date="1528292649294" expanded="true" signature="6009:6073" ph="select count... mmall_user" />
-                <marker date="1528292649294" expanded="true" signature="6159:6217" ph="select count... mmall_user" />
-                <marker date="1528292649294" expanded="true" signature="6314:6460" ph="select from mmall_user" />
-                <marker date="1528292649294" expanded="true" signature="6565:6633" ph="select quest... mmall_user" />
-                <marker date="1528292649294" expanded="true" signature="6717:6843" ph="select count... mmall_user" />
-                <marker date="1528292649294" expanded="true" signature="6923:7027" ph="update mmall_user... " />
-                <marker date="1528292649294" expanded="true" signature="7113:7204" ph="select count... mmall_user" />
-                <marker date="1528292649294" expanded="true" signature="7295:7376" ph="select count... mmall_user" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="478">
+              <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICategoryService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/ICategoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="75" column="30" lean-forward="false" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="122" column="33" lean-forward="true" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
+              <folding>
+                <marker date="1528357301686" expanded="true" signature="1080:1190" ph="select from mmall_category" />
+                <marker date="1528357301686" expanded="true" signature="1277:1341" ph="delete from mmall_category... " />
+                <marker date="1528357301686" expanded="true" signature="1422:1703" ph="insert into mmall_category... " />
+                <marker date="1528357301686" expanded="true" signature="3046:3683" ph="update mmall_category... " />
+                <marker date="1528357301686" expanded="true" signature="3776:4093" ph="update mmall_category... " />
+                <marker date="1528357301686" expanded="true" signature="4205:4309" ph="select from mmall_category" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Const.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,20 +123,18 @@
       <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2775">
-              <caret line="201" column="36" lean-forward="false" selection-start-line="201" selection-start-column="25" selection-end-line="201" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="528">
+              <caret line="211" column="51" lean-forward="false" selection-start-line="211" selection-start-column="51" selection-end-line="211" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserManagerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManagerController.java">
+      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="783">
+              <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,6 +161,11 @@
       <find>RequestMethod.POST</find>
       <find>RequestMethod.GET</find>
       <find>logger</find>
+      <find>userServiceIm</find>
+      <find>logback</find>
+      <find>iUserService</find>
+      <find>set</find>
+      <find>hashset</find>
     </findStrings>
     <replaceStrings>
       <replace>RequestMethod.POST</replace>
@@ -260,9 +215,16 @@
         <option value="$PROJECT_DIR$/src/main/resources/mmall.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/mmall.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/ICategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java" />
       </list>
     </option>
   </component>
@@ -313,9 +275,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="x" value="152" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -429,8 +392,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mmall" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="protal" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mmall" type="b2602c69:ProjectViewProjectNode" />
@@ -439,7 +401,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mmall" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mmall" type="b2602c69:ProjectViewProjectNode" />
@@ -459,37 +421,6 @@
               <item name="mmall" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MMALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mmall" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MMALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MMALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MMALL" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -815,12 +746,12 @@
       <workItem from="1528188088691" duration="414000" />
       <workItem from="1528188586219" duration="147000" />
       <workItem from="1528188752850" duration="41973000" />
-      <workItem from="1528334161605" duration="4451000" />
+      <workItem from="1528334161605" duration="17928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60624000" />
+    <option name="totallyTimeSpent" value="74101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -848,18 +779,18 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40673575" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13240042" sideWeight="0.49722221" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6146394" sideWeight="0.49722221" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09968017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14101183" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23667377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.082884826" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -884,86 +815,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2781">
-          <caret line="103" column="25" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="25" />
-          <folding>
-            <marker date="1528185694069" expanded="true" signature="1083:1189" ph="select from mmall_cart" />
-            <marker date="1528185694069" expanded="true" signature="1276:1336" ph="delete from mmall_cart... " />
-            <marker date="1528185694069" expanded="true" signature="1413:1701" ph="insert into mmall_cart... " />
-            <marker date="1528185694069" expanded="true" signature="3048:3694" ph="update mmall_cart... " />
-            <marker date="1528185694069" expanded="true" signature="3783:4106" ph="update mmall_cart... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3105">
-          <caret line="115" column="25" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
-          <folding>
-            <marker date="1528185800836" expanded="true" signature="1080:1190" ph="select from mmall_category" />
-            <marker date="1528185800836" expanded="true" signature="1277:1341" ph="delete from mmall_category... " />
-            <marker date="1528185800836" expanded="true" signature="1422:1703" ph="insert into mmall_category... " />
-            <marker date="1528185800836" expanded="true" signature="3046:3683" ph="update mmall_category... " />
-            <marker date="1528185800836" expanded="true" signature="3776:4093" ph="update mmall_category... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4374">
-          <caret line="162" column="25" lean-forward="false" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
-          <folding>
-            <marker date="1528186144128" expanded="true" signature="1504:1616" ph="select from mmall_order_item" />
-            <marker date="1528186144128" expanded="true" signature="1703:1769" ph="delete from mmall_order_item... " />
-            <marker date="1528186144128" expanded="true" signature="1851:2359" ph="insert into mmall_order_item... " />
-            <marker date="1528186144128" expanded="true" signature="4403:5499" ph="update mmall_order_item... " />
-            <marker date="1528186144128" expanded="true" signature="5593:6149" ph="update mmall_order_item... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5022">
-          <caret line="186" column="25" lean-forward="false" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
-          <folding>
-            <marker date="1528186144096" expanded="true" signature="1645:1752" ph="select from mmall_order" />
-            <marker date="1528186144096" expanded="true" signature="1839:1900" ph="delete from mmall_order... " />
-            <marker date="1528186144096" expanded="true" signature="1978:2556" ph="insert into mmall_order... " />
-            <marker date="1528186144096" expanded="true" signature="4847:6101" ph="update mmall_order... " />
-            <marker date="1528186144096" expanded="true" signature="6191:6818" ph="update mmall_order... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3402">
-          <caret line="126" column="53" lean-forward="false" selection-start-line="126" selection-start-column="53" selection-end-line="126" selection-end-column="53" />
-          <folding>
-            <marker date="1528186144200" expanded="true" signature="1212:1322" ph="select from mmall_pay_info" />
-            <marker date="1528186144200" expanded="true" signature="1409:1473" ph="delete from mmall_pay_info... " />
-            <marker date="1528186144200" expanded="true" signature="1553:1916" ph="insert into mmall_pay_info... " />
-            <marker date="1528186144200" expanded="true" signature="3483:4274" ph="update mmall_pay_info... " />
-            <marker date="1528186144200" expanded="true" signature="4366:4770" ph="update mmall_pay_info... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5211">
@@ -1042,11 +893,12 @@
         <state relative-caret-position="3105">
           <caret line="115" column="25" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
           <folding>
-            <marker date="1528185800836" expanded="true" signature="1080:1190" ph="select from mmall_category" />
-            <marker date="1528185800836" expanded="true" signature="1277:1341" ph="delete from mmall_category... " />
-            <marker date="1528185800836" expanded="true" signature="1422:1703" ph="insert into mmall_category... " />
-            <marker date="1528185800836" expanded="true" signature="3046:3683" ph="update mmall_category... " />
-            <marker date="1528185800836" expanded="true" signature="3776:4093" ph="update mmall_category... " />
+            <marker date="1528357301686" expanded="true" signature="1080:1190" ph="select from mmall_category" />
+            <marker date="1528357301686" expanded="true" signature="1277:1341" ph="delete from mmall_category... " />
+            <marker date="1528357301686" expanded="true" signature="1422:1703" ph="insert into mmall_category... " />
+            <marker date="1528357301686" expanded="true" signature="3046:3683" ph="update mmall_category... " />
+            <marker date="1528357301686" expanded="true" signature="3776:4093" ph="update mmall_category... " />
+            <marker date="1528357301686" expanded="true" signature="4205:4309" ph="select from mmall_category" />
           </folding>
         </state>
       </provider>
@@ -1170,20 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3105">
-          <caret line="115" column="25" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
-          <folding>
-            <marker date="1528185800836" expanded="true" signature="1080:1190" ph="select from mmall_category" />
-            <marker date="1528185800836" expanded="true" signature="1277:1341" ph="delete from mmall_category... " />
-            <marker date="1528185800836" expanded="true" signature="1422:1703" ph="insert into mmall_category... " />
-            <marker date="1528185800836" expanded="true" signature="3046:3683" ph="update mmall_category... " />
-            <marker date="1528185800836" expanded="true" signature="3776:4093" ph="update mmall_category... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,14 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/TokenCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -1394,17 +1224,17 @@
         <state relative-caret-position="1566">
           <caret line="71" column="72" lean-forward="false" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1062#1063#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#515#516#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
+            <element signature="e#1032#1033#0" expanded="false" />
+            <element signature="e#1062#1063#0" expanded="false" />
+            <element signature="e#1091#1092#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="false" />
+            <element signature="e#1147#1148#0" expanded="false" />
+            <element signature="e#1173#1174#0" expanded="false" />
+            <element signature="e#1200#1201#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1425,32 +1255,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2775">
-          <caret line="201" column="36" lean-forward="false" selection-start-line="201" selection-start-column="25" selection-end-line="201" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManagerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1475,22 +1285,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
           <folding>
-            <element signature="e#1667#1668#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2614#2615#0" expanded="true" />
-            <element signature="e#2674#2675#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="109" column="17" lean-forward="true" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+        <state relative-caret-position="199">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="211" column="51" lean-forward="false" selection-start-line="211" selection-start-column="51" selection-end-line="211" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/collect/Sets.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="79" column="29" lean-forward="false" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="122" column="33" lean-forward="true" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
+          <folding>
+            <marker date="1528357301686" expanded="true" signature="1080:1190" ph="select from mmall_category" />
+            <marker date="1528357301686" expanded="true" signature="1277:1341" ph="delete from mmall_category... " />
+            <marker date="1528357301686" expanded="true" signature="1422:1703" ph="insert into mmall_category... " />
+            <marker date="1528357301686" expanded="true" signature="3046:3683" ph="update mmall_category... " />
+            <marker date="1528357301686" expanded="true" signature="3776:4093" ph="update mmall_category... " />
+            <marker date="1528357301686" expanded="true" signature="4205:4309" ph="select from mmall_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="75" column="30" lean-forward="false" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/ICategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

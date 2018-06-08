@@ -22,9 +22,9 @@ public class PropertiesUtil {
         String fileName = "mmall.properties";
         props = new Properties();
         try {
-            props.load(new InputStreamReader(PropertiesUtil.class.getClassLoader().getResourceAsStream(fileName),"UTF-8"));
+            props.load(new InputStreamReader(PropertiesUtil.class.getClassLoader().getResourceAsStream(fileName), "UTF-8"));
         } catch (IOException e) {
-            logger.error("配置文件读取异常");
+            logger.error("配置文件读取异常", e);
         }
     }
 

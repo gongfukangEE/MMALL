@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
+import java.io.UnsupportedEncodingException;
 
 /**
  * @Auther gongfukang
@@ -59,7 +60,7 @@ public class CategoryManageController {
         }
         if (iUserService.checkAdminRole(user).isSuccess()) {
             // 更新 categoryName
-            return iCategoryService.updateCategoryName(categoryId,categoryName);
+            return iCategoryService.updateCategoryName(categoryId, categoryName);
         } else {
             return ServerResponse.createByErrorMessage("无权限操作，需要管理员权限");
         }
@@ -70,7 +71,7 @@ public class CategoryManageController {
      */
     @RequestMapping(value = "get_category.do")
     @ResponseBody
-    public ServerResponse getChildrenParallelCategory(HttpSession session, @RequestParam(value = "categoryId", defaultValue = "0")  Integer categoryId) {
+    public ServerResponse getChildrenParallelCategory(HttpSession session, @RequestParam(value = "categoryId", defaultValue = "0") Integer categoryId) {
         User user = (User) session.getAttribute(Const.CURRENT_USER);
         if (user == null) {
             return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(), "用户未登陆");
@@ -88,16 +89,16 @@ public class CategoryManageController {
      */
     @RequestMapping(value = "get_deep_category.do")
     @ResponseBody
-    public ServerResponse getCategoryAndDeepChildrenCategory(HttpSession session, @RequestParam(value = "categoryId",defaultValue = "0") Integer categoryId) {
+    public ServerResponse getCategoryAndDeepChildrenCategory(HttpSession session, @RequestParam(value = "categoryId", defaultValue = "0") Integer categoryId) {
         User user = (User) session.getAttribute(Const.CURRENT_USER);
         if (user == null) {
             return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(), "用户未登陆");
         }
         if (iUserService.checkAdminRole(user).isSuccess()) {
-            //todo 查询当前节点的 id 和递归子节点的 id
+            //查询当前节点的 id 和递归子节点的 id
+            return iCategoryService.selectCategoryAndChildrenById(categoryId);
         } else {
             return ServerResponse.createByErrorMessage("无权限操作，需要管理员权限");
         }
-        return iCategoryService.selectCategoryAndChildrenById(categoryId);
     }
 }

@@ -122,6 +122,6 @@ public class ProductManageController {
     @RequestMapping("upload.do")
     @ResponseBody
     public ServerResponse upload(MultipartFile file, HttpServletRequest request) {
-
+        return null;
     }
 }

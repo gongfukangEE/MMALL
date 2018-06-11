@@ -153,4 +153,7 @@
           and product_id = #{productId}
       </if>
     </update>
+    <select id="selectCartProductCount" resultType="java.lang.Integer" parameterType="integer">
+      select ifnull(sum(quantity),0) as count from mmall_cart where user_id = #{userId}
+    </select>
 </mapper>

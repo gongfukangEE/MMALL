@@ -28,7 +28,7 @@ public class Product {
 
     private String subImage;
 
-    public Product(Integer id, Integer categoryId, String name, String subtitle, String mainImage, String detail, BigDecimal price, Integer stock, Integer status, Date createTime, Date updateTime, String subImage) {
+    public Product(Integer id, Integer categoryId, String name, String subtitle, String mainImage, String subImage, String detail, BigDecimal price, Integer stock, Integer status, Date createTime, Date updateTime) {
         this.id = id;
         this.categoryId = categoryId;
         this.name = name;

@@ -31,6 +31,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -103,7 +104,7 @@ public class OrderServiceImpl implements IOrderService {
         List<OrderItem> orderItemList = orderItemMapper.getByOrderNoUserId(orderNo, userId);
         for (OrderItem orderItem : orderItemList) {
             GoodsDetail goods = GoodsDetail.newInstance(orderItem.getProductId().toString(), orderItem.getProductName(),
-                    BigDecimalUtil.mul(orderItem.getCurrentUnitPrice().doubleValue(), new Double(100).doubleValue()).longValue(),orderItem.getQuantity());
+                    BigDecimalUtil.mul(orderItem.getCurrentUnitPrice().doubleValue(), new Double(100).doubleValue()).longValue(), orderItem.getQuantity());
             goodsDetailList.add(goods);
         }
 
@@ -141,7 +142,7 @@ public class OrderServiceImpl implements IOrderService {
                 }
 
                 // 需要修改为运行机器上的路径
-                String qrPath = String.format(path +"/qr-%s.png", response.getOutTradeNo());
+                String qrPath = String.format(path + "/qr-%s.png", response.getOutTradeNo());
                 String qrFileName = String.format("qr-%s.png", response.getOutTradeNo());
                 ZxingUtils.getQRCodeImge(response.getQrCode(), 256, qrPath);
 
@@ -214,5 +215,17 @@ public class OrderServiceImpl implements IOrderService {
         payInfoMapper.insert(payInfo);
 
         return ServerResponse.createBySuccess();
+    }
+
+    @Override
+    public ServerResponse queryOrderPayStatus(Integer userId, Long orderNo) {
+        Order order = orderMapper.selectByUserIdAndOrderNo(userId, orderNo);
+        if (order == null) {
+            return ServerResponse.createByErrorMessage("用户没有该订单");
+        }
+        if (order.getStatus() >= Const.OrderStatusEnum.PAID.getCode()) {
+            return ServerResponse.createBySuccess();
+        }
+        return ServerResponse.createByError();
     }
 }

@@ -28,7 +28,7 @@
         <!--<File>d:/mmalllog/error.log</File>-->
         <File>d:/Soft/Tomcat/apache-tomcat-7.0.82/logs/error.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>d:/Soft/Tomcat/apache-tomcat-7.0.82/logs/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <fileNamePattern>d:/Soft/Tomcat/apache-tomcat-7.0.82/logs/logs/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <!--<fileNamePattern>d:/mmalllog/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>-->
             <append>true</append>
             <maxHistory>10</maxHistory>

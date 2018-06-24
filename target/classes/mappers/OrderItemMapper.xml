@@ -170,9 +170,10 @@
     where order_no = #{orderNo}
     and user_id = #{userId}
   </select>
-  <select id="getByOrderNo" resultMap="BaseResultMap">
+  <select id="getByOrderNo" resultMap="BaseResultMap" parameterType="long">
     select
     <include refid="Base_Column_List"/>
+    from mmall_order_item
     where order_no = #{orderNo}
   </select>
   <insert id="batchInsert" parameterType="list">

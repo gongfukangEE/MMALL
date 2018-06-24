@@ -37,11 +37,11 @@ public class OrderController {
 
     @RequestMapping("create.do")
     @ResponseBody
-    public ServerResponse create(HttpSession session, Integer shappingId) {
+    public ServerResponse create(HttpSession session, Integer shippingId) {
         User user = (User) session.getAttribute(Const.CURRENT_USER);
         if (user == null)
             return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(), ResponseCode.NEED_LOGIN.getDesc());
-        return iOrderService.createOrder(user.getId(), shappingId);
+        return iOrderService.createOrder(user.getId(), shippingId);
     }
 
     @RequestMapping("cancel.do")

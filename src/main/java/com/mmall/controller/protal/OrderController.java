@@ -9,6 +9,7 @@ import com.mmall.common.ResponseCode;
 import com.mmall.common.ServerResponse;
 import com.mmall.pojo.User;
 import com.mmall.service.IOrderService;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,11 +27,10 @@ import java.util.Map;
  * @Auther gongfukang
  * @Date 2018/6/12 23:07
  */
+@Slf4j
 @Controller
 @RequestMapping("/order/")
 public class OrderController {
-
-    public static final Logger logger = LoggerFactory.getLogger(OrderController.class);
 
     @Autowired
     private IOrderService iOrderService;
@@ -116,7 +116,7 @@ public class OrderController {
             }
             params.put(name, valueStr);
         }
-        logger.info("支付宝回调，sign:{}，trade_status:{},参数:{}", params.get("sign"), params.get("trade_status"), params.toString());
+        log.info("支付宝回调，sign:{}，trade_status:{},参数:{}", params.get("sign"), params.get("trade_status"), params.toString());
 
         // 异步回调验签，是不是支付宝发的，还要避免重复通知
         // 在通知返回参数列表中，需要除去 sign(支付宝已除去) 和 sign_type
@@ -127,7 +127,7 @@ public class OrderController {
                 return ServerResponse.createByErrorMessage("非法验证请求，请求不通过");
             }
         } catch (AlipayApiException e) {
-            logger.error("支付宝验证回调异常", e);
+            log.error("支付宝验证回调异常", e);
         }
 
         //todo 验证各种参数

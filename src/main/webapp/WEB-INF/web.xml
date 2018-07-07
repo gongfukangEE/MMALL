@@ -24,6 +24,17 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
+    <!-- 重置 session 时间的 filter -->
+    <filter>
+        <filter-name>sessionExpireFilter</filter-name>
+        <filter-class>com.mmall.controller.common.SessionExpireFilter</filter-class>
+    </filter>
+    <!-- 拦截器拦截，凡是以 do 结尾的 都被 sessionExpireFilter 拦截 -->
+    <filter-mapping>
+        <filter-name>sessionExpireFilter</filter-name>
+        <url-pattern>*.do</url-pattern>
+    </filter-mapping>
+
     <!-- 监听 web 容器的启动和关闭 -->
     <listener>
         <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>

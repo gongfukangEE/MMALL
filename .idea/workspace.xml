@@ -669,7 +669,7 @@
       <workItem from="1530279937258" duration="3890000" />
       <workItem from="1530325952089" duration="5535000" />
       <workItem from="1530600820062" duration="34677000" />
-      <workItem from="1530881760538" duration="20267000" />
+      <workItem from="1530881760538" duration="20280000" />
     </task>
     <task id="LOCAL-00001" summary="Cookie Util">
       <created>1530879672754</created>
@@ -706,7 +706,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530954537156</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit redis cache forget token">
+      <created>1530955207081</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1530955207081</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -730,7 +737,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312789000" />
+    <option name="totallyTimeSpent" value="312802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

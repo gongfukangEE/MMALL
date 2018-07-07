@@ -24,6 +24,7 @@ public class CookieUtil {
         Cookie ck = new Cookie(COOKIE_NAME, token);
         ck.setDomain(COOKIE_DOMAIN);
         ck.setPath("/");    // 代表设置在根目录
+        ck.setHttpOnly(true);
         ck.setMaxAge(60 * 60 * 24 * 365);   // cookie 有效期，单位是 sec。-1 表示永久，如果不设置，cookie 不写入硬盘，而是写入内存，只在当前页面有效
         log.info("write cookieName:{}, cookieValue:{}", ck.getName(), ck.getValue());
         response.addCookie(ck);
@@ -55,8 +56,8 @@ public class CookieUtil {
             for (Cookie ck : cks) {
                 if (StringUtils.equals(ck.getName(), COOKIE_NAME)) {
                     ck.setDomain(COOKIE_DOMAIN);
-                    ck.setPath("/");
                     ck.setMaxAge(0);    // 设置为 0 代表删除此 cookie
+                    ck.setPath("/");
                     log.info("del cookieName:{}, cookieValue:{}", ck.getName(), ck.getValue());
                     response.addCookie(ck);
                     return;

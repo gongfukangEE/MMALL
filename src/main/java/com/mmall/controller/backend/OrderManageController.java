@@ -28,8 +28,6 @@ import javax.servlet.http.HttpServletRequest;
 public class OrderManageController {
 
     @Autowired
-    private IUserService iUserService;
-    @Autowired
     private IOrderService iOrderService;
 
     @RequestMapping("list.do")

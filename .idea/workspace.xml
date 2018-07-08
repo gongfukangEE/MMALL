@@ -6,33 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f370c75d-32a4-4f32-a8ba-e6466bd460a8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_1_2_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_1_2_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mmall_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/mmall_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_3_RELEASE.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_3_RELEASE.xml" />
+    <list default="true" id="f370c75d-32a4-4f32-a8ba-e6466bd460a8" name="Default" comment="SpringMVC 全局异常处理">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/ExceptionResolver.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mmall.iml" afterPath="$PROJECT_DIR$/mmall.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext-datasource.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,31 +39,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <file leaf-file-name="ExceptionResolver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ExceptionResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="342">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="42" column="106" lean-forward="true" selection-start-line="42" selection-start-column="106" selection-end-line="42" selection-end-column="106" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <file leaf-file-name="MappingJacksonJsonView.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.3.RELEASE/spring-webmvc-4.0.3.RELEASE-sources.jar!/org/springframework/web/servlet/view/json/MappingJacksonJsonView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-datasource.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="78" column="60" lean-forward="true" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
+              <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -152,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/alipay/demo/trade/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alipay/demo/trade/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/alipay/demo/trade/DemoHbRunner.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
@@ -189,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/OrderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/OrderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/ShippingController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/common/SessionExpireFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/OrderManageController.java" />
@@ -203,6 +180,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/ExceptionResolver.java" />
       </list>
     </option>
   </component>
@@ -332,6 +311,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MMALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MMALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,7 +372,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MMALL_2" />
-    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/applicationContext.xml&#10;user&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/controller/protal/UserSpringSessionController.java&#10;jedis&#9;FILE&#9;jar://D:/Soft/Maven/repository/org/springframework/data/spring-data-redis/1.7.1.RELEASE/spring-data-redis-1.7.1.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.java&#10;redisHttps&#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration&#10;web.&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/webapp/WEB-INF/web.xml&#10;LettuceConnectionF&#9;PSI&#9;JAVA://org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory&#10;mma&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mmall.properties&#10;mmall&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mmall.properties&#10;Const&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/common/Const.java&#10;const&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/common/Const.java&#10;StringUtils&#9;FILE&#9;jar://D:/Soft/Maven/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class&#10;pom.xml&#9;FILE&#9;file://D:/GitHub/MMALL/pom.xml&#10;Iorder&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/service/IOrderService.java&#10;orderItem&#9;PSI&#9;JAVA://com.mmall.dao.OrderItemMapper&#10;orderMapper&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/dao/OrderMapper.java&#10;orderma&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mappers/OrderMapper.xml&#10;orderMapper.java&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/dao/OrderMapper.java&#10;u&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
+    <property name="SearchEverywhereHistoryKey" value="pom&#9;FILE&#9;file://D:/GitHub/MMALL/pom.xml&#10;MappingJackson&#9;PSI&#9;JAVA://org.springframework.web.servlet.view.json.MappingJacksonJsonView&#10;View&#9;PSI&#9;JAVA://javax.swing.text.View&#10;app&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/applicationContext.xml&#10;user&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/controller/protal/UserSpringSessionController.java&#10;jedis&#9;FILE&#9;jar://D:/Soft/Maven/repository/org/springframework/data/spring-data-redis/1.7.1.RELEASE/spring-data-redis-1.7.1.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.java&#10;redisHttps&#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration&#10;web.&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/webapp/WEB-INF/web.xml&#10;LettuceConnectionF&#9;PSI&#9;JAVA://org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory&#10;mma&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mmall.properties&#10;mmall&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mmall.properties&#10;Const&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/common/Const.java&#10;const&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/common/Const.java&#10;StringUtils&#9;FILE&#9;jar://D:/Soft/Maven/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class&#10;pom.xml&#9;FILE&#9;file://D:/GitHub/MMALL/pom.xml&#10;Iorder&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/service/IOrderService.java&#10;orderItem&#9;PSI&#9;JAVA://com.mmall.dao.OrderItemMapper&#10;orderMapper&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/dao/OrderMapper.java&#10;orderma&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mappers/OrderMapper.xml&#10;orderMapper.java&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/dao/OrderMapper.java&#10;u&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -718,7 +706,7 @@
       <workItem from="1530325952089" duration="5535000" />
       <workItem from="1530600820062" duration="34677000" />
       <workItem from="1530881760538" duration="20759000" />
-      <workItem from="1530956556892" duration="17791000" />
+      <workItem from="1530956556892" duration="21243000" />
     </task>
     <task id="LOCAL-00001" summary="Cookie Util">
       <created>1530879672754</created>
@@ -783,7 +771,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530971307553</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="SpringMVC 全局异常配置">
+      <created>1531020439356</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1531020439356</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -807,7 +802,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="331072000" />
+    <option name="totallyTimeSpent" value="334524000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -842,7 +837,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4066736" sideWeight="0.49722221" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16648291" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -883,7 +878,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4066736" sideWeight="0.49722221" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16648291" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -906,7 +901,9 @@
     <MESSAGE value="添加 sessionExpireFilter 重置 session 时间" />
     <MESSAGE value="commit redis cache forget token" />
     <MESSAGE value="Redis 集群" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis 集群" />
+    <MESSAGE value="SpringMVC 全局异常配置" />
+    <MESSAGE value="SpringMVC 全局异常处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringMVC 全局异常处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -946,44 +943,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12-sources.jar!/org/codehaus/jackson/map/annotate/JsonSerialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="157" column="12" lean-forward="false" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/org/apache/commons/lang/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3861">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/JsonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="44" column="68" lean-forward="true" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/vo/CartVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1411,14 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserSpringSessionController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1443,14 +1394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="129" column="46" lean-forward="true" selection-start-line="129" selection-start-column="46" selection-end-line="129" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -1469,9 +1412,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="432">
+          <caret line="16" column="82" lean-forward="false" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/text/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="190" column="22" lean-forward="false" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.3.RELEASE/spring-webmvc-4.0.3.RELEASE.jar!/org/springframework/web/servlet/view/json/MappingJacksonJsonView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <marker date="1531017669465" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1531017669465" expanded="false" signature="165:892" ph="..." />
+            <marker date="1531017669465" expanded="true" signature="894:912" ph="/**...*/" />
+            <marker date="1531017669465" expanded="true" signature="1418:1692" ph="{...}" />
+            <marker date="1531017669465" expanded="true" signature="1753:1912" ph="{...}" />
+            <marker date="1531017669465" expanded="false" signature="1961:1972" ph=" { " />
+            <marker date="1531017669465" expanded="false" signature="1997:2003" ph=" }" />
+            <marker date="1531017669465" expanded="true" signature="2056:2162" ph="{...}" />
+            <marker date="1531017669465" expanded="false" signature="2207:2218" ph=" { " />
+            <marker date="1531017669465" expanded="false" signature="2239:2245" ph=" }" />
+            <marker date="1531017669465" expanded="false" signature="2295:2306" ph=" { " />
+            <marker date="1531017669465" expanded="false" signature="2335:2341" ph=" }" />
+            <marker date="1531017669465" expanded="false" signature="2392:2403" ph=" { " />
+            <marker date="1531017669465" expanded="false" signature="2450:2456" ph=" }" />
+            <marker date="1531017669465" expanded="true" signature="2510:2594" ph="{...}" />
+            <marker date="1531017669465" expanded="true" signature="2636:2776" ph="{...}" />
+            <marker date="1531017669465" expanded="false" signature="2822:2833" ph=" { " />
+            <marker date="1531017669465" expanded="false" signature="2882:2888" ph=" }" />
+            <marker date="1531017669465" expanded="false" signature="2941:2952" ph=" { " />
+            <marker date="1531017669465" expanded="false" signature="2979:2985" ph=" }" />
+            <marker date="1531017669465" expanded="false" signature="3030:3041" ph=" { " />
+            <marker date="1531017669465" expanded="false" signature="3063:3069" ph=" }" />
+            <marker date="1531017669465" expanded="true" signature="3075:3093" ph="/**...*/" />
+            <marker date="1531017669465" expanded="false" signature="3179:3190" ph=" { " />
+            <marker date="1531017669465" expanded="false" signature="3226:3232" ph=" }" />
+            <marker date="1531017669465" expanded="true" signature="3238:3256" ph="/**...*/" />
+            <marker date="1531017669465" expanded="false" signature="3325:3336" ph=" { " />
+            <marker date="1531017669465" expanded="false" signature="3358:3364" ph=" }" />
+            <marker date="1531017669465" expanded="true" signature="3456:3541" ph="{...}" />
+            <marker date="1531017669465" expanded="false" signature="3600:3611" ph=" { " />
+            <marker date="1531017669465" expanded="false" signature="3648:3654" ph=" }" />
+            <marker date="1531017669465" expanded="false" signature="3723:3734" ph=" { " />
+            <marker date="1531017669465" expanded="false" signature="3781:3787" ph=" }" />
+            <marker date="1531017669465" expanded="true" signature="3882:4246" ph="{...}" />
+            <marker date="1531017669465" expanded="true" signature="4393:4769" ph="{...}" />
+            <marker date="1531017669465" expanded="true" signature="4831:5484" ph="{...}" />
+            <marker date="1531017669465" expanded="true" signature="5591:6007" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.3.RELEASE/spring-webmvc-4.0.3.RELEASE-sources.jar!/org/springframework/web/servlet/view/AbstractView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="55" column="84" lean-forward="false" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.3.RELEASE/spring-webmvc-4.0.3.RELEASE-sources.jar!/org/springframework/web/servlet/view/json/MappingJacksonJsonView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="42" column="106" lean-forward="true" selection-start-line="42" selection-start-column="106" selection-end-line="42" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

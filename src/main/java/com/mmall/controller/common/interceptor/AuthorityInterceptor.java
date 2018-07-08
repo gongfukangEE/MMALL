@@ -62,6 +62,8 @@ public class AuthorityInterceptor implements HandlerInterceptor {
             return true;
         }
 
+        log.info("权限拦截器拦截到请求，className: {}, methodName: {}, param: {}", className, methodName, requestParamBuffer.toString());
+
         // 获取用户
         User user = null;
         String loginToken = CookieUtil.readLoginToken(request);
@@ -79,8 +81,8 @@ public class AuthorityInterceptor implements HandlerInterceptor {
 
             PrintWriter out = response.getWriter();
 
+            // 上传由于富文本的控件要去，要特殊处理返回值，这里面区分登陆和权限
             if (user == null) {
-                // 富文本上传处理
                 if (StringUtils.equals(className, "ProductManageController") && StringUtils.equals(methodName, "richtextImgUpload")) {
                     Map resultMap = Maps.newHashMap();
                     resultMap.put("success", false);

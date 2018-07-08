@@ -24,6 +24,7 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
+    <!-- Redis 实现 SSO -->
     <!-- 重置 session 时间的 filter -->
     <filter>
         <filter-name>sessionExpireFilter</filter-name>

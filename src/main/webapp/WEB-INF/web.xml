@@ -60,9 +60,15 @@
     </servlet>
 
 
-    <servlet-mapping>
+<!--    <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.do</url-pattern>
+    </servlet-mapping>-->
+
+    <!-- RESTful -->
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 
 </web-app>

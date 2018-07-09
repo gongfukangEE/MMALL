@@ -35,7 +35,6 @@ public class UserManagerController {
             User user = response.getDate();
             if (user.getRole() == Const.Role.ROLE_ADMIN) {
                 // 说明登陆的管理员，改为 Redis 共享 session 的方式
-                //session.setAttribute(Const.CURRENT_USER, user);
                 CookieUtil.writeLoginToken(httpServletResponse, session.getId());
                 RedisShardedPoolUtil.setEx(session.getId(), Const.RedisCacheExtime.REDIS_SESSION_EXTIME, JsonUtil.obj2String(response.getDate()));
                 return response;

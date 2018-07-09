@@ -21,6 +21,8 @@ public class Product {
 
     private String mainImage;
 
+    private String subImage;
+
     private String detail;
 
     private BigDecimal price;
@@ -32,8 +34,4 @@ public class Product {
     private Date createTime;
 
     private Date updateTime;
-
-    private String subImage;
-
-
 }

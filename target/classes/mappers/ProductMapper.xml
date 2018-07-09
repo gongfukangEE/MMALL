@@ -24,8 +24,6 @@
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
     <include refid="Base_Column_List" />
-    ,
-    <include refid="Base_Column_List" />
     from mmall_product
     where id = #{id,jdbcType=INTEGER}
   </select>

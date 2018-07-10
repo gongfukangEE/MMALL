@@ -59,10 +59,4 @@ public class CloseOrderTask {
         log.info("释放: {}, ThreadName: {}", Const.REDIS_LOCK.CLOSE_ORDER_TASK_LOCK, Thread.currentThread().getName());
         log.info("--------------------------------------------------------------------------------------------------");
     }
-
-    /**
-     * 测试
-     */
-
-
 }

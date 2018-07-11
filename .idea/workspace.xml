@@ -6,33 +6,36 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f370c75d-32a4-4f32-a8ba-e6466bd460a8" name="Default" comment="git test">
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext-datasource.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/datasource.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/generatorConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/logback.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CartMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CategoryMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/OrderItemMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/OrderMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/PayInfoMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ProductMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ShippingMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/UserMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mmall.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/zfbinfo.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/dispatcher-servlet.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/index.jsp" />
+    <list default="true" id="f370c75d-32a4-4f32-a8ba-e6466bd460a8" name="Default" comment="双重防死锁实现分布式锁">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_avro_2_9_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_6_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_8_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_8_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_8_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_8_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_8_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_8_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_2_0_8_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_stream_2_0_8_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_cache_cache_api_1_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_8_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_redisson_redisson_2_9_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/RedissonManager.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mmall_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/mmall_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/mmall.iml" afterPath="$PROJECT_DIR$/mmall.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/task/CloseOrderTask.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/task/CloseOrderTask.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/util/RedisShardedPoolUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/RedisShardedPoolUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mmall.properties" afterPath="$PROJECT_DIR$/src/main/resources/mmall.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mmall.properties" afterPath="$PROJECT_DIR$/target/classes/mmall.properties" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mmall.properties" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mmall.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,22 +68,56 @@
       <file leaf-file-name="CloseOrderTask.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/task/CloseOrderTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="48" column="77" lean-forward="false" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
+            <state relative-caret-position="274">
+              <caret line="114" column="18" lean-forward="false" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisShardedPoolUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/RedisShardedPoolUtil.java">
+      <file leaf-file-name="RedisShardedPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/RedisShardedPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="69" column="31" lean-forward="false" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+            <state relative-caret-position="513">
+              <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="272" column="60" lean-forward="false" selection-start-line="272" selection-start-column="60" selection-end-line="272" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedissonManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/RedissonManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleServerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/2.9.0/redisson-2.9.0-sources.jar!/org/redisson/config/SingleServerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="127" column="58" lean-forward="false" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -146,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/FileServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/PropertiesUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java" />
@@ -168,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/RedisPoolUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-spring-session.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserSpringSessionController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/ExceptionResolver.java" />
@@ -196,6 +231,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/RedisShardedPoolUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mmall.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/RedissonManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/task/CloseOrderTask.java" />
       </list>
     </option>
@@ -237,8 +274,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="984" />
-    <option name="width" value="943" />
+    <option name="x" value="933" />
+    <option name="width" value="994" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -284,8 +321,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,11 +357,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mmall" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MMALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MMALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MMALL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MMALL" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -337,19 +390,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MMALL_2" />
-    <property name="SearchEverywhereHistoryKey" value="mm&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mmall.properties&#10;Redis&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/util/RedisShardedPoolUtil.java&#10;mma&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mmall.properties&#10;cons&#9;PSI&#9;JAVA://com.mmall.common.Const&#10;Clos&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/task/CloseOrderTask.java&#10;productm&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/dao/ProductMapper.java&#10;datas&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/applicationContext-datasource.xml&#10;applica&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/applicationContext.xml&#10;prod&#9;PSI&#9;JAVA://com.mmall.controller.protal.ProductController&#10;ca&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/controller/backend/CategoryManageController.java&#10;produc&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/controller/backend/ProductManageController.java&#10;dis&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/webapp/WEB-INF/dispatcher-servlet.xml&#10;pom&#9;FILE&#9;file://D:/GitHub/MMALL/pom.xml&#10;MappingJackson&#9;PSI&#9;JAVA://org.springframework.web.servlet.view.json.MappingJacksonJsonView&#10;View&#9;PSI&#9;JAVA://javax.swing.text.View&#10;app&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/applicationContext.xml&#10;user&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/controller/protal/UserSpringSessionController.java&#10;jedis&#9;FILE&#9;jar://D:/Soft/Maven/repository/org/springframework/data/spring-data-redis/1.7.1.RELEASE/spring-data-redis-1.7.1.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.java&#10;redisHttps&#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration&#10;web.&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/webapp/WEB-INF/web.xml&#10;LettuceConnectionF&#9;PSI&#9;JAVA://org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory&#10;mmall&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mmall.properties&#10;Const&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/common/Const.java&#10;const&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/common/Const.java&#10;StringUtils&#9;FILE&#9;jar://D:/Soft/Maven/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class&#10;pom.xml&#9;FILE&#9;file://D:/GitHub/MMALL/pom.xml&#10;Iorder&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/service/IOrderService.java&#10;orderItem&#9;PSI&#9;JAVA://com.mmall.dao.OrderItemMapper&#10;orderMapper&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/dao/OrderMapper.java&#10;orderma&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mappers/OrderMapper.xml&#10;orderMapper.java&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/dao/OrderMapper.java&#10;u&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
+    <property name="SearchEverywhereHistoryKey" value="redis&#9;PSI&#9;JAVA://com.mmall.common.RedisPool&#10;re&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/common/RedisShardedPool.java&#10;rediss&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/util/RedisShardedPoolUtil.java&#10;pom&#9;FILE&#9;file://D:/GitHub/MMALL/pom.xml&#10;mm&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mmall.properties&#10;Redis&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/util/RedisShardedPoolUtil.java&#10;mma&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mmall.properties&#10;cons&#9;PSI&#9;JAVA://com.mmall.common.Const&#10;Clos&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/task/CloseOrderTask.java&#10;productm&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/dao/ProductMapper.java&#10;datas&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/applicationContext-datasource.xml&#10;applica&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/applicationContext.xml&#10;prod&#9;PSI&#9;JAVA://com.mmall.controller.protal.ProductController&#10;ca&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/controller/backend/CategoryManageController.java&#10;produc&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/controller/backend/ProductManageController.java&#10;dis&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/webapp/WEB-INF/dispatcher-servlet.xml&#10;MappingJackson&#9;PSI&#9;JAVA://org.springframework.web.servlet.view.json.MappingJacksonJsonView&#10;View&#9;PSI&#9;JAVA://javax.swing.text.View&#10;app&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/applicationContext.xml&#10;user&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/controller/protal/UserSpringSessionController.java&#10;jedis&#9;FILE&#9;jar://D:/Soft/Maven/repository/org/springframework/data/spring-data-redis/1.7.1.RELEASE/spring-data-redis-1.7.1.RELEASE-sources.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.java&#10;redisHttps&#9;PSI&#9;JAVA://org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration&#10;web.&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/webapp/WEB-INF/web.xml&#10;LettuceConnectionF&#9;PSI&#9;JAVA://org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory&#10;mmall&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mmall.properties&#10;Const&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/common/Const.java&#10;const&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/common/Const.java&#10;StringUtils&#9;FILE&#9;jar://D:/Soft/Maven/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class&#10;pom.xml&#9;FILE&#9;file://D:/GitHub/MMALL/pom.xml&#10;Iorder&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/service/IOrderService.java&#10;orderItem&#9;PSI&#9;JAVA://com.mmall.dao.OrderItemMapper&#10;orderMapper&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/dao/OrderMapper.java&#10;orderma&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/resources/mappers/OrderMapper.xml&#10;orderMapper.java&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/dao/OrderMapper.java&#10;u&#9;FILE&#9;file://D:/GitHub/MMALL/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mmall.controller.protal" />
-      <recent name="com.mmall.util" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.mmall" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.alipay.demo.trade" />
-      <recent name="com.mmall.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitHub\MMALL\src\main\resources" />
@@ -357,6 +402,14 @@
       <recent name="D:\GitHub\MMALL\src\main\resources.dev" />
       <recent name="D:\GitHub\MMALL\src\main\resources.beta" />
       <recent name="D:\GitHub\MMALL\src\main\java\com\alipay" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mmall.controller.protal" />
+      <recent name="com.mmall.util" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.alipay.demo.trade" />
+      <recent name="com.mmall.common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -648,7 +701,7 @@
       <workItem from="1530600820062" duration="34677000" />
       <workItem from="1530881760538" duration="20759000" />
       <workItem from="1530956556892" duration="56147000" />
-      <workItem from="1531222317980" duration="10201000" />
+      <workItem from="1531222317980" duration="14572000" />
     </task>
     <task id="LOCAL-00001" summary="Cookie Util">
       <created>1530879672754</created>
@@ -839,7 +892,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531220442647</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="双重防死锁实现分布式锁">
+      <created>1531277241364</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1531277241364</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -863,7 +923,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="379629000" />
+    <option name="totallyTimeSpent" value="384000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -890,7 +950,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937434" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39520332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23566215" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -902,7 +962,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25755996" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33635333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17971334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -998,7 +1058,8 @@
     <MESSAGE value="Spring Schedule 配置" />
     <MESSAGE value="Redis 分布式锁" />
     <MESSAGE value="git test" />
-    <option name="LAST_COMMIT_MESSAGE" value="git test" />
+    <MESSAGE value="双重防死锁实现分布式锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="双重防死锁实现分布式锁" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1009,25 +1070,18 @@
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
-          <line>591</line>
-          <properties />
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
-          <line>609</line>
-          <properties />
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="74" />
+      <option name="time" value="75" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>lockTimeout=5000</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>requestParamBuffer</expression-string>
         <language-id>JAVA</language-id>
@@ -1083,50 +1137,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-spring-session.xml" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/swing/text/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="190" column="22" lean-forward="false" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.3.RELEASE/spring-webmvc-4.0.3.RELEASE.jar!/org/springframework/web/servlet/view/json/MappingJacksonJsonView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.3.RELEASE/spring-webmvc-4.0.3.RELEASE-sources.jar!/org/springframework/web/servlet/view/AbstractView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="55" column="84" lean-forward="false" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.3.RELEASE/spring-webmvc-4.0.3.RELEASE-sources.jar!/org/springframework/web/servlet/view/json/MappingJacksonJsonView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="717">
@@ -1199,6 +1209,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,6 +1284,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1371,6 +1383,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,25 +1423,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IOrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="600" column="37" lean-forward="true" selection-start-line="600" selection-start-column="37" selection-end-line="600" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar!/org/springframework/scheduling/support/ScheduledMethodRunnable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1456,14 +1455,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/RedisShardedPool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
-          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-          <folding>
-            <element signature="e#2456#2457#0" expanded="false" />
-            <element signature="e#2497#2498#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="690">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1475,22 +1479,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/RedisShardedPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="513">
+          <caret line="24" column="56" lean-forward="false" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="272" column="60" lean-forward="false" selection-start-line="272" selection-start-column="60" selection-end-line="272" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/RedisPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/2.9.0/redisson-2.9.0.jar!/org/redisson/config/SingleServerConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <folding>
+            <marker date="1531298254851" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1531298254851" expanded="false" signature="143:193" ph="..." />
+            <marker date="1531298254851" expanded="true" signature="641:648" ph="{}" />
+            <marker date="1531298254851" expanded="true" signature="700:1303" ph="{...}" />
+            <marker date="1531298254851" expanded="true" signature="1381:1463" ph="{...}" />
+            <marker date="1531298254851" expanded="false" signature="1503:1514" ph=" { " />
+            <marker date="1531298254851" expanded="false" signature="1545:1551" ph=" }" />
+            <marker date="1531298254851" expanded="true" signature="1653:1759" ph="{...}" />
+            <marker date="1531298254851" expanded="false" signature="1811:1822" ph=" { " />
+            <marker date="1531298254851" expanded="false" signature="1865:1871" ph=" }" />
+            <marker date="1531298254851" expanded="true" signature="1930:2055" ph="{...}" />
+            <marker date="1531298254851" expanded="false" signature="2084:2095" ph=" { " />
+            <marker date="1531298254851" expanded="false" signature="2145:2151" ph=" }" />
+            <marker date="1531298254851" expanded="true" signature="2186:2271" ph="{...}" />
+            <marker date="1531298254851" expanded="true" signature="2343:2415" ph="{...}" />
+            <marker date="1531298254851" expanded="false" signature="2453:2464" ph=" { " />
+            <marker date="1531298254851" expanded="false" signature="2490:2496" ph=" }" />
+            <marker date="1531298254851" expanded="true" signature="2581:2669" ph="{...}" />
+            <marker date="1531298254851" expanded="false" signature="2713:2724" ph=" { " />
+            <marker date="1531298254851" expanded="false" signature="2758:2764" ph=" }" />
+            <marker date="1531298254851" expanded="true" signature="2880:3000" ph="{...}" />
+            <marker date="1531298254851" expanded="false" signature="3059:3070" ph=" { " />
+            <marker date="1531298254851" expanded="false" signature="3120:3126" ph=" }" />
+            <marker date="1531298254851" expanded="true" signature="3218:3314" ph="{...}" />
+            <marker date="1531298254851" expanded="false" signature="3361:3372" ph=" { " />
+            <marker date="1531298254851" expanded="false" signature="3410:3416" ph=" }" />
+            <marker date="1531298254851" expanded="true" signature="3474:3536" ph="{...}" />
+            <marker date="1531298254851" expanded="false" signature="3566:3577" ph=" { " />
+            <marker date="1531298254851" expanded="false" signature="3598:3604" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/2.9.0/redisson-2.9.0-sources.jar!/org/redisson/config/SingleServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="127" column="58" lean-forward="false" selection-start-line="127" selection-start-column="58" selection-end-line="127" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/2.9.0/redisson-2.9.0-sources.jar!/org/redisson/api/RLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1499">
+          <caret line="590" column="16" lean-forward="false" selection-start-line="590" selection-start-column="16" selection-end-line="590" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/RedissonManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/task/CloseOrderTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="48" column="77" lean-forward="false" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
+        <state relative-caret-position="274">
+          <caret line="114" column="18" lean-forward="false" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
           </folding>
         </state>
       </provider>

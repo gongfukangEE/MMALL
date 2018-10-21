@@ -43,7 +43,7 @@ public class CloseOrderTask {
     public void closeOrderTaskV1() {
         log.info("关闭订单定时任务启动");
         int hour = Integer.parseInt(PropertiesUtil.getProperty("close.order.task.time.hour", "2"));
-        // iOrderService.closeOrder(hour);
+        // iOrderService.closeOrder(hour);ec
         log.info("关闭订单定时任务结束");
     }
 
@@ -109,7 +109,7 @@ public class CloseOrderTask {
 
         boolean getLock = false;
         try {
-            if (getLock = lock.tryLock(2, 5, TimeUnit.SECONDS)) {
+            if (getLock = lock.tryLock(0, 50, TimeUnit.SECONDS)) {
                 log.info("Redisson 获取分布式锁，LockName: {}, ThreadName: {}", Const.REDIS_LOCK.CLOSE_ORDER_TASK_LOCK, Thread.currentThread().getName());
                 int hour = Integer.parseInt(PropertiesUtil.getProperty("close.order.task.hour", "2"));
                 //iOrderService.closeOrder(hour);

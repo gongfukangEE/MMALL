@@ -14,12 +14,17 @@ import java.util.List;
  */
 public class RedisShardedPool {
     private static ShardedJedisPool pool;      // ShardedJedis 连接池
-    private static Integer maxTotal = Integer.parseInt(PropertiesUtil.getProperty("redis.max.total", "20"));    // 最大连接数
-    private static Integer maxIdle = Integer.parseInt(PropertiesUtil.getProperty("redis.max.idle", "10"));     // 在 jedispool 中最大的 idle 状态（空闲的）jedis 实例个数
-    private static Integer minIdle = Integer.parseInt(PropertiesUtil.getProperty("redis.min.idle", "2"));     // 在 jedispool 中最大的 idle 状态（空闲的）jedis 实例个数
+    private static Integer maxTotal =
+            Integer.parseInt(PropertiesUtil.getProperty("redis.max.total", "20"));    // 最大连接数
+    private static Integer maxIdle =
+            Integer.parseInt(PropertiesUtil.getProperty("redis.max.idle", "10"));     // 在 jedispool 中最大的 idle 状态（空闲的）jedis 实例个数
+    private static Integer minIdle =
+            Integer.parseInt(PropertiesUtil.getProperty("redis.min.idle", "2"));     // 在 jedispool 中最大的 idle 状态（空闲的）jedis 实例个数
 
-    private static Boolean testOnBorrow = Boolean.parseBoolean(PropertiesUtil.getProperty("redis.test.borrow", "true"));        // 在 borrow 一个 jedis 实例的时候，是否要进行验证操作，如果赋值为 true，则得到的 jedis 实例肯定是可用的
-    private static Boolean testOnReturn = Boolean.parseBoolean(PropertiesUtil.getProperty("redis.return.borrow", "true"));        // 在 return 一个 jedis 实例的时候，是否要进行验证操作，如果赋值为 true，则放回 jedispool 的 jedis 实例是可以用的
+    private static Boolean testOnBorrow =
+            Boolean.parseBoolean(PropertiesUtil.getProperty("redis.test.borrow", "true"));        // 在 borrow 一个 jedis 实例的时候，是否要进行验证操作，如果赋值为 true，则得到的 jedis 实例肯定是可用的
+    private static Boolean testOnReturn =
+            Boolean.parseBoolean(PropertiesUtil.getProperty("redis.return.borrow", "true"));        // 在 return 一个 jedis 实例的时候，是否要进行验证操作，如果赋值为 true，则放回 jedispool 的 jedis 实例是可以用的
 
     private static String redis1IP = PropertiesUtil.getProperty("redis1.ip");
     private static Integer redis1Port = Integer.parseInt(PropertiesUtil.getProperty("redis1.port"));
@@ -63,6 +68,9 @@ public class RedisShardedPool {
         pool.returnBrokenResource(jedis);
     }
 
+    /**
+     * 放回连接池
+     */
     public static void returnResource(ShardedJedis jedis) {
         pool.returnResource(jedis);
     }

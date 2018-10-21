@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 @Slf4j
 public class CookieUtil {
 
+    // 写在一级域名下
     private final static String COOKIE_DOMAIN = ".moocmall.com";
     private final static String COOKIE_NAME = "mmall_login_token";
 

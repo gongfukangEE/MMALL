@@ -603,6 +603,7 @@ public class OrderServiceImpl implements IOrderService {
                     continue;
                 Product product = new Product();
                 product.setId(orderItem.getProductId());
+                // 关闭订单后，库存 = 原库存 + 订单中的数量
                 product.setStock(stock + orderItem.getQuantity());
                 productMapper.updateByPrimaryKeySelective(product);
             }
